@@ -156,14 +156,14 @@ function bossBehaviors() {
     }
 
 
-    if (boss.x > platforms[platforms.length - 1].x + platforms[platforms.length - 1].width - 200) {
+    //if (boss.x > platforms[platforms.length - 1].x + platforms[platforms.length - 1].width - 200) {
 
-        GAME.finish();
-        document.getElementById("tittle").innerHTML = "PERDISTE LA CARRERA";
-        jugador.setVelocity(0);
-        jugador.y = 0;
-        boss.setVelocity(0);
-    }
+     //   GAME.finish();
+      //  document.getElementById("tittle").innerHTML = "PERDISTE LA CARRERA";
+     //   jugador.setVelocity(0);
+     //   jugador.y = 0;
+       // boss.setVelocity(0);
+ //   }
 }
 
 
@@ -227,6 +227,15 @@ function generalBehaviors() {
         }
 
     }
+    //var metaX = platforms[platforms.length - 1].x + platforms[platforms.length - 1].width - 800;
+
+    //if (jugador.x > metaX) {
+    //    GAME.finish();
+    //    document.getElementById("tittle").innerHTML = "GANASTE LA CARRERA";
+    //    boss.setVelocity(0);
+    //    jugador.setVelocity(0);
+    //    boss.x = 0;
+    //}
 
     if (jugador.y > SETTINGS.height) {
         GAME.finish();

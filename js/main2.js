@@ -3,7 +3,7 @@ var width = window.innerWidth;
 var height= window.innerHeight;
 function startGame() {
     GAME.start();
-    import  ("./world2.js")
+    import  ("./world3.js")
 }
 
 
